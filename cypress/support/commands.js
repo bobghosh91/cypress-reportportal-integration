@@ -32,7 +32,7 @@ Cypress.Commands.add('selectNavigationMenuOption', (option)=>{
 
     cy.get("ul.navbar-nav li").each(($el, index)=>{
 
-        // cy.log(`at position ${index} is ${$el.text()}`);
+        cy.log(`at position ${index} is ${$el.text()}`);
         if($el.text().toLowerCase().trim() == option.toLowerCase()){
             cy.wrap($el).click();
             found = true;
