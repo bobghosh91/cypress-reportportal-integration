@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run:mode": "NO_COLOR=1 npx cypress run --browser %BROWSER% --%MODE%"
+    "cy:run:headed": "npx cypress run --headed --browser chrome",
+    "cy:run:headless": "npx cypress run --headless --browser chrome",
+    "cy:run:chrome:alltest:headed": "npm run cy:run:headed -- --spec 'cypress/e2e/*.cy.js'",
+    "cy:run:chrome:alltest:headless": "npm run cy:run:headless -- --spec 'cypress/e2e/*.cy.js'"
 },
   "author": "bobghosh91@gmail.com",
   "license": "ISC",
