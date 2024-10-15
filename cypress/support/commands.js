@@ -37,8 +37,8 @@ Cypress.Commands.add('selectNavigationMenuOption', (option)=>{
             cy.wrap($el).click();
             found = true;
         }
-    })//.then(()=>{
-    //     if(!found) throw new Error(`Menu option ${option} not found`)
-    // })
+    }).then(()=>{
+        if(!found) throw new Error(`Menu option ${option} not found`)
+    })
 
 });

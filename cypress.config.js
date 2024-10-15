@@ -34,10 +34,10 @@ module.exports = defineConfig({
   viewportHeight: 1080,
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
-    // reporterEnabled: 'cypress-mochawesome-reporter, @reportportal/agent-js-cypress',
-    reporterEnabled: 'cypress-mochawesome-reporter',
+    reporterEnabled: 'cypress-mochawesome-reporter, @reportportal/agent-js-cypress',
+    // reporterEnabled: 'cypress-mochawesome-reporter',
     cypressMochawesomeReporterOptions: mochawesomeOptions,
-    // reportportalAgentJsCypressReporterOptions: reportportalOptions
+    reportportalAgentJsCypressReporterOptions: reportportalOptions
   },
   screenshotOnRunFailure: true,
   trashAssetsBeforeRuns: true,
