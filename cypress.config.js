@@ -4,7 +4,7 @@ const registerReportPortalPlugin = require('@reportportal/agent-js-cypress/lib/p
 
 
 const reportportalOptions = {
-  apiKey: 'cypress-regression__RJelZ8AQWWvzzCwrUtH0hnelrZTnfFjWb3bUOJG56s9bxudBemievdK-_seiBFG',
+  apiKey: '<your-reportportal-api-key>',
   endpoint: 'http://localhost:5500/api/v1',
   project: 'SRD_Regression_Suite_Automation',
   launch: 'Cypress_srd_regression_launch',

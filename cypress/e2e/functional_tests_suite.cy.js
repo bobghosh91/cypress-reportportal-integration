@@ -46,7 +46,7 @@ describe('Automated tests of AU Excersise applications', ()=>{
 
     });
 
-    it.only('Test: Verify Subscription in home page', ()=>{
+    it('Test: Verify Subscription in home page', ()=>{
 
         const subscribeEmail = testData.subscriptionData;
 
