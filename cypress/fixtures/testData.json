@@ -1,0 +1,13 @@
+{
+    "contactUsFormData": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "Test Subject",
+      "message": "This is a test message."
+    },
+    "subscriptionData": {
+      "email": "test91@fmail.com"
+      
+    }
+  }
+  

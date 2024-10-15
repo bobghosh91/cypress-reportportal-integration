@@ -1,0 +1,19 @@
+{
+  "name": "automation-exercise-cypress-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:mode": "NO_COLOR=1 npx cypress run --browser %BROWSER% --%MODE%"
+},
+  "author": "bobghosh91@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@reportportal/agent-js-cypress": "^5.3.5",
+    "cypress": "13.10.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-xpath": "^2.0.1",
+    "exceljs": "^4.4.0"
+  }
+}
